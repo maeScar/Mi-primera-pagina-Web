@@ -1,0 +1,26 @@
+
+*{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(75,45,253,1) 100%);
+}
+
+input[type="text"]{
+    background-color: rgb(255, 255, 255);
+    outline: none;
+}
+
+input[type="submit"]{
+    background-color: rgb(255, 255, 255);
+    outline: none;
+}
+
+input{
+    border-radius: 10px;
+    border : 0px;
+
+}
+
+input::placeholder{
+    border-radius: 10px;
+    border : 0px;
+}

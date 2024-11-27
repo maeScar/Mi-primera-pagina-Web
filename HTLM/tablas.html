@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=p , initial-scale=1.0">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="css/stylebg.css">
+</head>
+<body>
+    <header>Tablas</header>
+    <section>
+        <p>uso de la etiqueta <em>table</em> para el manejo o recibo de informacion</p>
+        <article>
+            <table frame="void" rules="rows" class="tableStyle" border="2px" tellspacing="10px" cellpadding="0px">
+                <caption align="top">Tabla de personas</caption>
+                <colgroup>
+                    <col span="2" style="background-color: rgb(189, 157, 118);"></colgroup>
+                <thead>
+                    <tr>
+                        <th  align="center">Nombres</th>
+                        <th  align="center">Apellidos</th>
+                        <th>Edad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juan</td>
+                        <td>Alvarez</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td>Diderot</td>
+                        <td>Segarra</td>
+                        <td>29</td>
+                    </tr>
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Fin de la tabla</td>
+                    </tr>
+                </tfoot>
+                
+            </table>
+            <form action="submit" method="post">
+                <label for="Nombre">Nombre</label><input type="text" id="txtnombre" placeholder="nombre">
+                <label for="Apellido">Apellido</label><input type="text" id="txtapellido" placeholder="apellido">
+                <label for="Password">Password</label><input type="password" id="txtpassword" placeholder="password">
+    
+            </form>
+            <button id="btnboton">Guardar</button>
+            <br> 
+            <label for="Tipo de persona"></label>
+            <select>
+                <option value="Estudiante"></option>
+                <option value="Docente"></option>
+                <option value="Administrador"></option>
+            </select>
+        </article>
+    </section>
+</body>
+</html>
